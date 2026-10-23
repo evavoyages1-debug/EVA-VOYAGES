@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-eva-blue: #135ca5;
+    --color-eva-blue-dark: #0c3f74;
+    --color-eva-blue-light: #2575c9;
+    --color-eva-orange: #f15a24;
+    --color-eva-orange-hover: #d94917;
+    --color-eva-orange-light: #ff7442;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+.font-amiri {
+  font-family: 'Amiri', serif;
+}
+
+/* EVA Voyages Official Brand Classes derived from Logo */
+.bg-eva-blue {
+  background-color: #135ca5;
+}
+
+.bg-eva-blue-dark {
+  background-color: #0c3f74;
+}
+
+.bg-eva-orange {
+  background-color: #f15a24;
+}
+
+.bg-eva-orange-hover:hover {
+  background-color: #d94917;
+}
+
+.text-eva-blue {
+  color: #135ca5;
+}
+
+.text-eva-orange {
+  color: #f15a24;
+}
+
+.border-eva-blue {
+  border-color: #135ca5;
+}
+
+.border-eva-orange {
+  border-color: #f15a24;
+}
+
+.ring-eva-blue {
+  --tw-ring-color: #135ca5;
+}
+
+.ring-eva-orange {
+  --tw-ring-color: #f15a24;
+}
+
+.gradient-eva {
+  background: linear-gradient(135deg, #135ca5 0%, #0c3f74 100%);
+}
+
+.gradient-eva-card {
+  background: linear-gradient(135deg, #0f4882 0%, #092c53 100%);
+}
+
+.gradient-eva-accent {
+  background: linear-gradient(135deg, #f15a24 0%, #d94917 100%);
+}
+
+/* Custom scrollbars for smooth dashboard and mobile feeds */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(168, 162, 158, 0.4);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(168, 162, 158, 0.7);
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}

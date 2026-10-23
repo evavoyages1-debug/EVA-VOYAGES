@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix Remix Remix Remix Remix Remix Remix EVA Voyages - Hajj \u0026 Oumra",
+  "description": "Application mobile d\u0027inscription et de gestion pour pèlerinages Hajj et Oumra avec catalogue de packages ajustables, collecte de documents en temps réel, suivi centralisé des dossiers, paiements Wave et Orange Money, et notifications automatiques SMS/Email.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
